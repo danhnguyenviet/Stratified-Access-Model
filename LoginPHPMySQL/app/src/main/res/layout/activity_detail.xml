@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.journaldev.loginphpmysql.DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/detailInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DETAIL INFORMATION"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-light"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <TextView android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textColor="#FF192133"
+                android:textColorHint="#A0192133"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-light"/>
+
+            <TextView android:id="@+id/fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fullname"
+                android:textColor="#FF192133"
+                android:textColorHint="#A0192133"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-light"/>
+
+            <TextView android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gender"
+                android:textColor="#FF192133"
+                android:textColorHint="#A0192133"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-light"/>
+
+            <TextView android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:textColor="#FF192133"
+                android:textColorHint="#A0192133"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-light"/>
+
+            <TextView android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textColor="#FF192133"
+                android:textColorHint="#A0192133"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-light"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
